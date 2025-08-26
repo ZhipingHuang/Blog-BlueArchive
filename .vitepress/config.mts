@@ -103,7 +103,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     //gitalk配置
     clientID: 'Ov23lifXIazaxDJL5EeX',
     clientSecret: 'c87a1e2e653dad8d5045950e3fc5bd6dfbd2dd59',
-    repo: 'gitalk-comment',
+    repo: 'gitalk-comment', //存放评论数据的仓库名,确保是公开的
     owner: 'Dec1224',
     admin: ['Dec1224'],
   },
