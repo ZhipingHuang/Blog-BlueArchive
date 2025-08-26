@@ -79,9 +79,9 @@ export default defineConfigWithTheme<ThemeConfig>({
     ],
 
     //banner区配置
-    videoBanner: false, //是否显示视频背景
-    name: "Dec's 部落格", //首页标题
-    welcomeText: 'Hello, I\'m 十二月Coisini', //首页欢迎语
+    videoBanner: true, //是否显示视频背景
+    name: "Dec's 碎碎念", //首页标题
+    welcomeText: 'Flowers For Lu', //首页欢迎语
     motto: ['和你的日常，就是奇迹', '你很远,也很近,在脑海,也在心里', '生活明朗,万物可爱'], //首页格言
     social: [ //社交连接配置
       { icon: 'github', url: 'https://github.com/' },
