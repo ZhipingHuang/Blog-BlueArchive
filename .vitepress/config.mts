@@ -66,10 +66,11 @@ export default defineConfigWithTheme<ThemeConfig>({
   ignoreDeadLinks: true,
   // 生成站点地图
   sitemap: {
-    hostname: 'https://blue.zphuang.cn',
+    hostname: 'https://blue.zphuang.cn', //替换为你的域名
   },
-  title: "Sensei's 部落格",
-  description: "Sensei's 部落格",
+  //站点标题配置
+  title: "Dec's 部落格",
+  description: "Dec's 部落格",
   themeConfig: {
     // navBar
     menuList: [
@@ -78,11 +79,11 @@ export default defineConfigWithTheme<ThemeConfig>({
     ],
 
     //banner区配置
-    videoBanner: false,
-    name: "Sensei's 部落格",
-    welcomeText: 'Hello, VitePress',
-    motto: ['和你的日常，就是奇迹', '何気ない日常で、ほんの少しの奇跡を見つける物語。'],
-    social: [
+    videoBanner: false, //是否显示视频背景
+    name: "Dec's 部落格", //首页标题
+    welcomeText: 'Hello, I\'m 十二月Coisini', //首页欢迎语
+    motto: ['和你的日常，就是奇迹', '你很远,也很近,在脑海,也在心里', '生活明朗,万物可爱'], //首页格言
+    social: [ //社交连接配置
       { icon: 'github', url: 'https://github.com/' },
       { icon: 'bilibili', url: 'https://www.bilibili.com/' },
       { icon: 'qq', url: 'https://im.qq.com/index/' },
@@ -90,21 +91,21 @@ export default defineConfigWithTheme<ThemeConfig>({
     ],
 
     //spine语音配置，可选zh/jp
-    spineVoiceLang: 'jp',
+    spineVoiceLang: 'zh',
 
     //footer配置
-    footerName: 'Sensei',
+    footerName: 'Dec',
     poweredList: [
       { name: 'VitePress', url: 'https://github.com/vuejs/vitepress' },
       { name: 'GitHub Pages', url: 'https://docs.github.com/zh/pages' },
     ],
 
     //gitalk配置
-    clientID: 'Ov23lia9U9wFN3WMyoKK',
-    clientSecret: 'b2418ab598c188c43a247c99e728dd2735d58c3b',
-    repo: 'vitepress-theme-bluearchive',
-    owner: 'Alittfre',
-    admin: ['Alittfre'],
+    clientID: 'Ov23lifXIazaxDJL5EeX',
+    clientSecret: 'c87a1e2e653dad8d5045950e3fc5bd6dfbd2dd59',
+    repo: 'Dec1224.github.io',
+    owner: 'Dec1224',
+    admin: ['Dec1224'],
   },
   markdown: {
     theme: 'solarized-dark',
