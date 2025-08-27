@@ -101,11 +101,19 @@ export default defineConfigWithTheme<ThemeConfig>({
     ],
 
     //gitalk配置
-    clientID: 'Ov23lifXIazaxDJL5EeX',
-    clientSecret: '0bb4853f6304780ee1536c9d602237f915310159',
+    //clientID: 'Ov23lifXIazaxDJL5EeX',
+    //clientSecret: '0bb4853f6304780ee1536c9d602237f915310159',
+    //repo: 'Dec1224.github.io', //存放评论数据的仓库,可以是任意的,就用本仓库就好
+    //owner: 'Dec1224',
+    //admin: ['Dec1224'],
+    clientID: 'Ov23liRQcMcAi7lqi0h4',
+    clientSecret: 'ea2251d2da317bdac2687c577b2d3435bed151b5',
     repo: 'Dec1224.github.io', //存放评论数据的仓库,可以是任意的,就用本仓库就好
     owner: 'Dec1224',
     admin: ['Dec1224'],
+    title: '💬 评论', // GitHub issue title
+    language: 'zh-CN',
+    distractionFreeMode: false, //是否开启免打扰模式
   },
   markdown: {
     theme: 'solarized-dark',
