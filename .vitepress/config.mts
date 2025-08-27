@@ -102,7 +102,7 @@ export default defineConfigWithTheme<ThemeConfig>({
 
     //gitalk配置
     clientID: 'Ov23lifXIazaxDJL5EeX',
-    clientSecret: 'c87a1e2e653dad8d5045950e3fc5bd6dfbd2dd59',
+    clientSecret: '0bb4853f6304780ee1536c9d602237f915310159',
     repo: 'Dec1224.github.io', //存放评论数据的仓库,可以是任意的,就用本仓库就好
     owner: 'Dec1224',
     admin: ['Dec1224'],
