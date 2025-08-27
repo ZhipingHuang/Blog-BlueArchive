@@ -10,3 +10,5 @@ cover: /wallpaper-878514.webp
 This is a cover test post.
 
 ---
+
+这是一个封面测试文章~
